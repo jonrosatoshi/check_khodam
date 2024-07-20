@@ -1,4 +1,9 @@
+
+
 <?php
+// ini kalau mau dijadiin JSON data dari DB
+
+// cors
 header("Access-Control-Allow-Origin: *");
 header("Access-Control-Allow-Methods: GET, POST, OPTIONS");
 header("Access-Control-Allow-Headers: Content-Type, Authorization");
@@ -20,6 +25,8 @@ class PostModel {
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
 }
+
+
 
 header("Content-Type: application/json");
 

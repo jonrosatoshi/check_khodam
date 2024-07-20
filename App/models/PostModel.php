@@ -3,7 +3,8 @@ require_once dirname(__DIR__) . '/db.php';
 
 class PostModel {
     private $conn;
-    // private $khodamOptions = ['laba-laba jerman', 'kardus milkuat', 'supra-x 125', 'termos', 'mie sedap goreng', 'kaleng khong guan'];
+
+    // array random nama-nama khodam
     private $khodamOptions = [
         'laba-laba jerman', 
         'kardus milkuat', 
@@ -37,6 +38,9 @@ class PostModel {
         'helm proyek'
     ];
     
+    private function getRandomKhodam() {
+        return $this->khodamOptions[array_rand($this->khodamOptions)];
+    }
 
     public function __construct() {
         $database = new Database();
@@ -59,8 +63,5 @@ class PostModel {
         return $stmt->execute();
     }
 
-    private function getRandomKhodam() {
-        return $this->khodamOptions[array_rand($this->khodamOptions)];
-    }
 }
 ?>

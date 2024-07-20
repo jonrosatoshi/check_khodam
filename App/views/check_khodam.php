@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Check Khodam</title>
-    <!-- Bootstrap CSS -->
+
+    <!-- gatau apa aja ini wkwk -->
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <link rel="stylesheet" type="text/css" href="/Public/css/style.css">
@@ -99,7 +100,7 @@
         <p class="copyright">
             &copy; <span id="year"></span> <span class="brand">Made with <span class="heart">&#10084;</span> by ibnu wildan</span>
         </p>
-        <a href="https://github.com/ibnuwildan/check-khodam" target="_blank" class="github-link"><i class="fab fa-github"></i> GitHub</a>
+        <a href="https://github.com/ibnuwildann/mvc-check-khodam" target="_blank" class="github-link"><i class="fab fa-github"></i> GitHub</a>
     </footer>
 
     <script>

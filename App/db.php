@@ -2,8 +2,8 @@
 class Database {
     private $host = "localhost";
     private $db_name = "data_feed";
-    private $username = "root"; // Sesuaikan dengan username database Anda
-    private $password = ""; // Sesuaikan dengan password database Anda
+    private $username = "root"; // username db
+    private $password = ""; // oassword db
     public $conn;
 
     public function getConnection() {
