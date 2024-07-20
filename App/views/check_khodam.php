@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Check Khodam</title>
-
+    <link rel="icon" type="image/x-icon" href="https://pbs.twimg.com/media/ErliiwnUUAEOe1R.jpg">
     <!-- gatau apa aja ini wkwk -->
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+    <script src="https://kit.fontawesome.com/e665567722.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <link rel="stylesheet" type="text/css" href="/Public/css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -28,10 +29,10 @@
                     <h2>Siapakah sosok asli penghuni tubuhmu?</h2>
                     <p>langsung cek kebenarannya dibawah</p>
                     <!-- Image placeholder -->
-                    <img src="https://www.batamnews.co.id/foto_berita//63harimaucisewu.jpg" alt="Placeholder Image" class="img-fluid mb-4 rounded">
+                    <img src="https://www.batamnews.co.id/foto_berita//63harimaucisewu.jpg" alt="Thumbnail Image" class="img-fluid mb-4 rounded">
                     <!-- Form -->
                     <form>
-                        
+
                         <div class="mb-3">
                             <label for="nama" class="form-label">Nama</label>
                             <input type="text" class="form-control" id="nama" required name="username" placeholder="apalagi kalau bukan nama">
@@ -100,7 +101,10 @@
         <p class="copyright">
             &copy; <span id="year"></span> <span class="brand">Made with <span class="heart">&#10084;</span> by ibnu wildan</span>
         </p>
-        <a href="https://github.com/ibnuwildann/mvc-check-khodam" target="_blank" class="github-link"><i class="fab fa-github"></i> GitHub</a>
+        <a href="https://github.com/ibnuwildann/mvc-check-khodam" target="blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/ibnuwildan/" target="_blank" class="linkedin-link"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/wild.ibn/" target="_blank" class="instagram-link"><i class="fab fa-instagram"></i></a>
+
     </footer>
 
     <script>

@@ -17,6 +17,42 @@ body {
 	}
 }
 
+.thumbnail-container {
+    position: relative;
+    display: inline-block;
+    width: 300px; /* Adjust width as needed */
+    height: 200px; /* Adjust height as needed */
+}
+
+.thumbnail-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px; /* Optional: for rounded corners */
+}
+
+.icon-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.thumbnail-container:hover .icon-overlay {
+    display: flex; /* Show icon on hover */
+}
+
+.icon-overlay {
+    display: none; /* Hide icon by default */
+}
 
 h1 {
     margin-bottom: 90px;
