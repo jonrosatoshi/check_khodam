@@ -2,11 +2,11 @@
 
 ## Overview
 
-Check Khodam is a web application that allows users to check their "Khodam" based on their input. The application provides an interactive user interface where users can input their name and date of birth to receive a "Khodam" value.
+Check Khodam is a MVC web application that allows users to check their "Khodam" based on their input. The application provides an interactive user interface where users can input their name and date of birth to receive a "Khodam" value.
 
 ## Features
 
-- **User Input Form**: Collects user name and date of birth.
+- **User Input Form**: Collects user name.
 - **Dynamic Content**: Displays a random "Khodam" value.
 - **Bootstrap Styling**: Utilizes Bootstrap for responsive and modern UI.
 - **Form Validation**: Ensures that all fields are filled out before submission.
