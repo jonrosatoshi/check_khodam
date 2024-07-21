@@ -99,11 +99,12 @@
     <!-- Footer -->
     <footer class="footer">
         <p class="copyright">
-            &copy; <span id="year"></span> <span class="brand">Made with <span class="heart">&#10084;</span> by ibnu wildan</span>
+            &copy; <span id="year"></span> <span class="brand">Made with <span class="heart">&#10084;</span> by jonrosatoshi</span>
         </p>
-        <a href="https://github.com/ibnuwildann/mvc-check-khodam" target="blank"><i class="fa-brands fa-github"></i></a>
+        <!-- <a href="https://github.com/ibnuwildann/mvc-check-khodam" target="blank"><i class="fa-brands fa-github"></i></a>
         <a href="https://www.linkedin.com/in/ibnuwildan/" target="_blank" class="linkedin-link"><i class="fab fa-linkedin"></i></a>
-        <a href="https://www.instagram.com/wild.ibn/" target="_blank" class="instagram-link"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.instagram.com/wild.ibn/" target="_blank" class="instagram-link"><i class="fab fa-instagram"></i></a> -->
+        <a href="https://www.instagram.com/jonrosatoshi/" target="_blank" class="instagram-link"><i class="fab fa-instagram"></i> Instagram</a>
 
     </footer>
 
